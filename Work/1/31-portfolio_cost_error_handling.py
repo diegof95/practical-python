@@ -1,4 +1,6 @@
-
+# portfolio_cost_error_handling.py
+#
+# Exercise 1.31
 
 def portfolio_cost(filename:str) -> float:
     """ Returns the cost of buying all the shares in a portfolio """

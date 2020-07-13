@@ -1,5 +1,3 @@
-# report.py
-#
 # Exercise 2.4
 
 from csv import reader
@@ -14,3 +12,6 @@ def read_portfolio(file_name:str) -> list:
     for row in rows:
       portfolio.append((row[0], int(row[1]), float(row[2])))
   return portfolio
+
+print("List of tuples, each tuple is a row of the portfolio:")
+print(read_portfolio('../Data/portfolio.csv'))
