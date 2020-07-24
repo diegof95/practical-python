@@ -18,5 +18,6 @@ def read_prices(file_name:str) -> dict:
         pass
   return prices
 
-print("A dictionary representing stocks and its prices, with stock name as key and its price as value:")
-pprint(read_prices('../Data/prices.csv'))
+if __name__ == '__main__':
+  print("A dictionary representing stocks and its prices, with stock name as key and its price as value:")
+  pprint(read_prices('../Data/prices.csv'))

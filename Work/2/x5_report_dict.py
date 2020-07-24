@@ -20,5 +20,6 @@ def read_portfolio(file_name:str) -> list:
       portfolio.append(dictionary)
   return portfolio
 
-print("List of dicts, each dict is a row of the portfolio, with keys indicating column:")
-pprint(read_portfolio('../Data/portfolio.csv'))
+if __name__ == '__main__':
+  print("List of dicts, each dict is a row of the portfolio, with keys indicating column:")
+  pprint(read_portfolio('../Data/portfolio.csv'))
