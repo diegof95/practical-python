@@ -13,5 +13,6 @@ def read_portfolio(file_name:str) -> list:
       portfolio.append((row[0], int(row[1]), float(row[2])))
   return portfolio
 
-print("List of tuples, each tuple is a row of the portfolio:")
-print(read_portfolio('../Data/portfolio.csv'))
+if __name__ == '__main__':
+  print("List of tuples, each tuple is a row of the portfolio:")
+  print(read_portfolio('../Data/missing.csv'))
