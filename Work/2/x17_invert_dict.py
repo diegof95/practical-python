@@ -1,9 +1,10 @@
 # Exercise 2.17
 
-import pprint
+from pprint import pprint
 
 def invert_dict(dictionary:dict) -> dict:
-  """ Takes a dictionary and returns a dict, inverted respect to key, values."""
+  """ Takes a dictionary and returns a dict, inverted respect to key, values 
+  (Switches key with values)."""
 
   keys = dictionary.keys()
   values = dictionary.values()

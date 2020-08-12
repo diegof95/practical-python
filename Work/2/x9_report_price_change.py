@@ -10,7 +10,6 @@ def make_report(portfolio:list, prices:dict) -> list:
     row = (
       stock['name'],
       stock['shares'],
-      # Use different quotes for dict keys inside or f-string will end
       prices[stock["name"]],
       prices[stock["name"]] - stock["price"],
     )
